@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.maceip/model-tools-mcp",
+  "title": "model.tools — Zero-Auth Agent Utilities",
+  "description": "Zero-auth email OTP extractor, KV checkpoint store, webhook receiver bin, wakeup timer, and markdown reader for AI agents.",
+  "version": "1.3.0",
+  "websiteUrl": "https://model.tools",
+  "repository": {
+    "url": "https://github.com/maceip/model-tools-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.model.tools/mcp"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+name: model-tools-mcp
+displayName: model.tools — Zero-Auth Email OTP, State, Webhooks & Wake for Agents
+version: 1.3.0
+description: >-
+  Zero-auth MCP utilities for autonomous agents: instant email verification code
+  (OTP / magic link) extraction, persistent KV checkpoints, webhook receiver bins,
+  delayed HTTP wakeup timers, URL-to-Markdown reader, verifiable task receipts,
+  and read-once dead drops.
+homepage: https://model.tools
+documentation: https://docs.model.tools/llms.txt
+license: MIT
+
+deployment:
+  type: remote
+  transport: streamable-http
+  url: https://mcp.model.tools/mcp
+  authentication:
+    required: false
+    schemes: []
+
+startCommand:
+  type: http
+  configSchema:
+    type: object
+    properties: {}
+    additionalProperties: false

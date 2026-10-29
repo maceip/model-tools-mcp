@@ -1,0 +1,28 @@
+{
+  "name": "model-tools-mcp",
+  "version": "1.3.0",
+  "description": "Zero-auth MCP server and remote Streamable HTTP connector (model.tools) for email OTP extraction, KV checkpoints, webhook bins, wake timers, and markdown reading.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maceip/model-tools-mcp.git"
+  },
+  "homepage": "https://model.tools",
+  "bin": {
+    "model-tools-mcp": "./bin/cli.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "email",
+    "otp",
+    "webhook",
+    "kv-store",
+    "markdown"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
